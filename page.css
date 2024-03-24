@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    background-color: white;
+    
+    }
+/* top icon */
+.firstflexbox{
+    background-color: rgb(236, 207, 168);
+    display: flex;
+}
+    .item{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5px 5px;
+        padding: 0px 5px ;
+        background-color:black;
+        border: 2px solid wheat;
+        border-radius: 5px;
+        /* flex: 1; */
+        font-size: 15px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .item a{
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .firstflexbox1{
+        display: flex;
+        padding: 0px 350px;
+        justify-self: flex-end;
+    }
+
+    .item1{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5px 5px;
+        padding: 0px 10px ;
+        background-color:black;
+        border: 2px solid wheat;
+        border-radius: 5px;
+        font-size: 15px;
+        text-decoration: none;
+        list-style: none;
+        align-items: self-end;
+    }
+    .item1 a{
+        color: white;
+    }
+
+    /* Pictures flex */
+    .pictures{
+        display: flex;
+        align-self: flex-end;
+        background-color: brown;
+    }
+    .pictures .pito{
+        align-self: flex-end;
+        /* margin: 0px 10px; */
+        /* flex-direction: column; */
+    }
+    
+    .meat{
+        background-color: white;
+        /* border: 1px solid wheat; */
+        margin: 0px;
+text-align: justify;
+    }
+  .meat p{
+    margin: 5px;
+    font-size: 14px;
+  }  
+
+ /* lastflexbox */
+ .lastflexbox{
+    height: 100px;
+    background-color: darkgrey;
+    align-self: flex-end;
+ }
+ .lasti, th, td{
+    gap: 200px 200px;
+    text-align: center;
+    margin: 0px 450px;
+    justify-content: space-around;
+ }
+ .lasti, th, td, a{
+    color: black;;
+
+ }
+ tbody td{
+    padding: 15px 20px;
+ }
+
+ th, td a{
+    text-decoration: none;
+    transition: all;
+    transition: 3s;
+}
+tr td a:hover{
+    background-color: gold;
+}
+ 
+  
+/* profilegrid */
+.profilegrid{
+    display: grid;
+    margin: 0px 10px;
+    background-color: blanchedalmond;
+}
+.grid{
+    grid-template-columns: 1fr 1fr;
+}
+
+/* words on profile  */
+.wordsOfProfiles{
+    margin: 0px 10px;
+}
+
+
+/* About page  */
+.abou h3{
+    padding-top: 2px;
+    font-size: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: justify;
+}
+.about h3{
+    padding-top: 2px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+/* #black{
+    background-color: white;
+    color: white;
+} */
+/* .front:hover{
+    background-image: url(DSC_850011.jpg);
+    width: 500px;
+} */
+.front.img:hover{
+    margin-left: 20px;
+    width: 10px;
+    height: 500px;
+}
+ 
+/* welcome page pictures */
+.front img{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 10px;
+    height: 600px;
+}
+
+    
+/* About page  */
+.about h3{
+    font-size: 20px;
+    color: rgb(155, 111, 111);
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(54, 33, 33); */
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+/* Words on the about page */
+.abou h3{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Portfolio page */
+.portt{
+background-color: beige;    
+}
+.port{
+    background-color: rgb(252, 252, 252);
+    color: rgb(143, 24, 24);
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;   
+}
+
+.profilegrid{
+    display: flex;
+    /* flex: 3; */
+}
+.profilegridpic{
+    display: flex;
+}
+.profilegrid .profilegridpic .grid{
+    flex-direction: column;
+flex-wrap: wrap;
+
+}
+/* Words on the portfolio page */
+.port h5{
+    font-size: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.port img{
+    padding-left: 150px;
+    padding-right: 2px;
+    width: 90%;
+    height: 0%;
+    
+}
+h5.eve{
+    color: white;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Contact Review page  */
+.rev{
+    /* background-image: url(/wedding/DSC_9212.jpg); */
+    background-color: rgb(190, 179, 113);
+    color: black;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* table */
+
+
+@media screen and (max-width: 400px) {
+    body{
+        max-width: 90%;
+        font-size: 13px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+     .options{
+        width: 111%;
+        height: 20px;
+    }
+     .options nav{
+        color: black;
+        /* background-color: black; */
+        color: black;
+        text-align: right;
+        width: 100%;
+        }
+
+        .options nav ul{
+            text-align: right;
+        }
+        .options nav ul li{
+            text-align: right;
+            justify-content: right;
+            padding-left: 7%;
+        }
+    .front img{
+        /* background-image: url(DSC_850011.jpg); */
+        height: 90%;
+        width: 90%;
+    }
+    .abou h3{
+        background-color: white;
+    }
+    .abou .fpic img{
+        height: 100%;
+    }
+    .about h3{
+        font-size: 13px;
+    }
+    .fpic img{
+        width: 100%;
+        height: 200%;
+    }
+
+        .logo{
+            width: 50%;
+            height: 50%;
+            /* background-image: url(/wedding/_MG_5275.jpg); */
+        }
+    
+    .port img{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+    }
+
+    /* welcome page pictures */
+    .picture img{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+        height: 100%;
+        }
+        /* portfolio pictures */
+        /* .port img{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 120%;
+            height: 100%;
+            } */
+            .front{
+                padding-left: 1px;
+                width: 100%;
+                height: 100%;
+                }
+                .front nav ul li{
+                    margin-top: 5px;
+                    display: grid;
+                    margin-left: 200px;
+                    justify-content: right;
+                    padding-bottom: 50%;
+                }
+                .front nav ul{
+                    display: flex;
+                    list-style: none;
+                    text-decoration: none;
+            padding-bottom: 50%;
+                }
+           
+}
+@media screen and (max-width: 800px) {
+    body{
+       max-width: 100%;
+       font-size: 13px;
+       /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .options{
+        width: 111%;
+        height: 20px;
+    }
+    .options nav{
+        color: black;
+        /* background-color: black; */
+        color: black;
+        text-align: right;
+        width: 100%;
+    }
+    .options nav ul a{
+            text-align: right;
+        }
+        .options nav ul li{
+            text-align: right;
+            justify-content: 2px;
+            padding-left: 5%;
+        }
+    
+    .abou h3{
+        background-color: white;
+    }
+    .about h3{
+        font-size: 13px;
+    }
+    .abou .fpic img{
+        height: 100%;
+    }
+    .fpic img{
+        width: 100%;
+        height: 200%;
+    }
+    
+    /* portfolio pictures */
+    .port img{
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
+    }
+    .logo{
+            /* background-image: url(DSC_850011.jpg); */
+            height: 90%;
+            width: 90%;
+    }
+    /* welcome page pictures */
+    .picture img{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        height: 100%;
+        
+        }
+        .port img{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+            height: 100%;
+            }
+            .front{
+                padding-left: 1px;
+                width: 100%;
+                height: 100%;
+                }
+                .front nav ul li{
+                    margin-top: 5px;
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+                .front nav ul{
+                    display: flex;
+                    list-style: none;
+                    text-decoration: none;
+                }
+           
+}
+}
